@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+    <!--<button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>-->
+    <span>Twitter App</span>
+    <span class="example-spacer"></span>
+    <button *ngIf="nuevoTweet" [routerLink]="['/nuevoTweet']" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        Nuevo Tweet
+        <mat-icon>add</mat-icon>
+        
+    </button>
+
+</mat-toolbar>
