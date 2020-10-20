@@ -12,9 +12,9 @@ export class TwitsServicesService {
   constructor(private http: HttpClient) { }
 
   public listarTweets(){
-    return this.http.get(`${environment.apiUrlProd}/post`);
+    return this.http.get(`${environment.apiUrlProd}post`);
   }
   public guardarTweet(Tweet: Twit){
-    return this.http.post(`${environment.apiUrlProd}/post`, Tweet);
+    return this.http.post(`${environment.apiUrlProd}post`, Tweet);
   }
 }

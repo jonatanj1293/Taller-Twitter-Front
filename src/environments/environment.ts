@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrlLocal: 'http://localhost:3000',
+  apiUrlLocal: 'http://localhost:3000/',
   apiUrlProd: 'https://tallerexpress.herokuapp.com/'
 };
 
